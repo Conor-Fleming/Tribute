@@ -1,0 +1,75 @@
+main{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #b8ccc9;
+    text-align: center;
+  }
+  .nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #nav-list{
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  #nav-list:last-child{
+    border-right: none;
+  }
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+   background-color: black; 
+  }
+  
+  #image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-div{
+    padding: 10px;
+    margin: 0;
+  }
+  
+  a{
+    border: 2px;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .tribute-link-twit:link, .tribute-link-twit:visited{
+    border: 2px solid blue;
+    text-decoration: none;
+    color: blue;
+  }
+  .tribute-link-twit:hover, .tribute-link-twit:active{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    transition-duration: .5s;
+  }
+  
+  .tribute-link-git:link, .tribute-link-git:visited{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+  }
+  .tribute-link-git:hover, .tribute-link-git:active{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    transition-duration: .5s;
+  }
